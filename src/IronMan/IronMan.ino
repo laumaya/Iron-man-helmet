@@ -18,9 +18,9 @@ const int LED_ON = 1;
 const int LED_OFF = 0;
 
 // Course setup
-const int openLeftAngle= 45; // Angle could be tuned to open wider
+const int openLeftAngle= 20; // Angle could be tuned to open wider
 const int openRightAngle= 180 - openLeftAngle;
-const int closeAngle= 130; // Angle could be tuned to rich perfect close position
+const int closeAngle= 105; // Angle could be tuned to rich perfect close position
 
 // After 450 ms detach servo
 const unsigned long courseTime= 450;
